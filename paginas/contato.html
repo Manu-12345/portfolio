@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Novo link para o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <title>Portfólio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #125f53;
+        }
+
+        header {
+            color: #fff;
+            padding: 10px 0;
+            position: sticky;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin: 15px 25px 0 25px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+
+        .menu li a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: all .2s linear;
+        }
+
+        .menu li a:hover {
+            color: #ccc;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+        }
+
+        .white-box {
+            background-color: #fff;
+            border-radius: 10px;
+            width: 650px;
+            height: 250px;
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .titulo {
+            font-size: 36px;
+            color: #125f53;
+            margin-top: 20px;
+        }
+
+        .social-icons i {
+            font-size: 32px;
+            margin-top: 10px;
+            color: #125f53; /* Cor dos ícones */
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="../img/LOGO.png" alt=""></div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./index.html"> voltar > </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content-container">
+        <div class="white-box">
+            <h1 class="titulo">Dúvidas? Sugestões? Críticas?</h1>
+            <p>Entre em contato comigo:</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_eumanu.s_/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/+5588994564502" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+    </div>
+
+</body>
+
+</html>

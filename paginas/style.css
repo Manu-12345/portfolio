@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#399999;
+}
+
+header {
+    background-color:white;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.logo img {
+  width: 75px; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.menu li a {
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    text-align:end;
+    
+}
+
+.menu li:nth-child(2) {
+    white-space: nowrap;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ll {
+   
+    width: 60%;
+    margin: 20px 0;
+    padding: 20px;
+}
+.ti .titulo{
+    color: white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ll .p{
+ text-align: justify;
+ font-size: 35px;
+
+}
+
+.ll .h2{
+    color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 30px;
+
+}
+
+.ll h1 {
+    font-size: 70px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7267B4;
+    margin-bottom: 20px;
+}
+
+.ll p {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7267B4;
+    text-align: justify;
+}
+
+.ll .pp {
+    margin-top: 8%;
+    margin-right: 10%;
+}
+
+.ll ul {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 50px;
+    color: #399999;
+    margin-top: 5%;
+}
+
+.tt {
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+  
+    
+}
+
+.tt img {
+    display: grid;
+    align-items: center;
+    animation: float 1.5s infinite ease-in-out;
+    width: 80%;
+    
+}
+
+.flutuando {
+    width: 100px;
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+
+.h1{
+    text-align: center;
+    align-items: center;
+    margin-left:55%;
+
+
+}
